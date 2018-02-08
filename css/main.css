@@ -1,0 +1,105 @@
+html,
+body,
+div,
+h1,
+h2,
+p,
+a,
+img,
+strong,
+b,
+u,
+i,
+center,
+ol,
+ul,
+li,
+article,
+header,
+section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+}
+
+img.alignright {
+	float: right;
+	margin: 0 0 1em 1em
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60em;
+}
+
+body,
+input,
+select,
+textarea {
+	color: #666;
+	font-size: 16pt;
+	font-weight: 300;
+	line-height: 1.65em;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 1.35em;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 1.35em;
+}
+
+ul.lista li {
+	display: inline-block;
+	padding: 2.5em;
+	text-align: center;
+}
+
+.main {
+	padding: 2em 0 4em 0;
+}
+
+.main.style2 {
+	padding: 8.4em 0 4em 0;
+	background-color: #333;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.main.style2 h1,
+.main.style2 h2 {
+	color: #ffffff;
+}
+
+#header {
+	padding: 1em 0 4em 0;
+	background-image: linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+	text-align: center;
+	color: #ffffff;
+}
+
+footer {
+	background-color: #333;
+}
+
+#header a:hover{
+	
+	text-decoration:underline overline; 
+
+	
+}
+
+#header a{
+
+	color:  #ffffff;
+	text-decoration:none; 
+}
+
